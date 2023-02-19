@@ -308,17 +308,15 @@ ul li a:hover{
 
 }
 .footer{
+    text-align: center;
     background: #FCFFE7;
     padding: 20px;
 }
+
 .footlogo{
-    text-align: center;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: baseline;
-    flex-wrap: nowrap;
-    font-size: 30px;
+    padding: 10px;
+    gap: 16px;
+    font-size: 20px;
     
 }
 
