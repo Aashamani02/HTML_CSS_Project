@@ -1,0 +1,103 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.main{
+    width:100%;
+    background: #2B3467;
+    background-position: center;
+    height: 60vh;
+}
+.topnav{
+    margin: auto;
+    width: 1000px;
+    height: 70px;
+}
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+
+}
+.logo{
+    color: aliceblue;
+    font-size: 35px;
+    text-decoration: underline;
+    padding-left: 5px;
+    float: left;
+    padding-top: 15px;
+}
+.details{
+    width: 400px;
+    float: right;
+    height: 70px;
+
+}
+ul{
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul li{
+    list-style: none;
+    margin-left: 65px;
+    margin-top: 25px;
+    font-size: 15px;
+}
+ul li a{
+    text-decoration: none;
+    color: aliceblue;
+    font-weight: bold;
+    transition: 0.5s ease-out;
+}
+ul li a:hover{
+    color: #FFB84C;
+}
+.subject{
+    width: 1000px;
+    height: auto;
+    margin: auto;
+    padding-top: 100px;
+    color: aliceblue;
+    position: relative;
+}
+.subject .para{
+    padding-left: 0px;
+    padding-bottom: 25px;
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 1.0px;
+    line-height: 30px;
+
+}
+.subject h1{
+    font-size: 35px;
+    padding-bottom: 25px;
+    padding-top: -30px;
+}
+.feat{
+    text-align: right;
+}
+.feat img{
+    padding: 25px;
+    width: 350px;
+    height: 250px;
+    position: absolute;
+    top: -30px;
+    left: 665px;
+    right
+}
+.footer{
+    text-align: center;
+    background: #FCFFE7;
+    padding: 20px;
+}
+
+.footlogo{
+    padding: 10px;
+    gap: 16px;
+    font-size: 20px;  
+}
